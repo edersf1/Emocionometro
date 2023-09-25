@@ -1,0 +1,129 @@
+
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.coracao{
+    background: rgba(228, 229, 231, 0.4);
+    width: 60%;
+}
+
+.coracao img{
+    width: 80%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.login{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 24px 0px 0px 24px;
+    background: var(--Branco, #FFF);
+    /* Sombra 1 */
+    box-shadow: 0px 7px 30px 0px rgba(187, 192, 205, 0.40);
+}
+
+.login img{
+    margin-top: 15%;
+}
+
+form{
+    line-height: 50px;
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    position: absolute;
+    z-index: 2;
+    color: #616161;
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+input{
+    padding: 8px 5px 8px 5px;
+    border-radius: 8px;
+    border: 1px solid #BDBDBD;
+    position: relative;
+    margin-top: 26px;
+}
+
+form p{
+    text-align: center;
+}
+
+.entrar{
+    color: #FFFF;
+    border-radius: 8px;
+    background: var(--cinzas-cinza-300, #E0E0E0);
+    padding: 6px 64px;
+    border: 1px solid transparent;
+}
+
+.entrar:hover{
+    color: #E0E0E0;
+    border-radius: 8px;
+    background: var(--cinzas-cinza-300, #FFFF);
+    padding: 6px 64px;
+    border: 1px solid #E0E0E0;
+}
+
+.cadastreSe{
+    color: #FFFF;
+    border-radius: 8px;
+    background: var(--sistema-sucesso, #00C247);
+    border: 1px solid transparent;
+    padding: 6px 64px;
+}
+
+.cadastreSe:hover{
+    color: #00C247;
+    border-radius: 8px;
+    background: var(--sistema-sucesso, #FFFF);
+    border: 1px solid #00C247;
+    padding: 6px 64px;
+}
+
+
+.checkbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox a{
+    margin-top: 10px;
+}
+
+.linhaN{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    color: #616161;
+}
+
+.linha{
+    width: 20px;
+    border-top: 1px solid #616161;
+    
+}
+
+span{
+    background: #FFF;
+    padding: 0px 5px;
+}
+
