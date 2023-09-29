@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Poppins:wght@300;500;600;700&family=Wix+Madefor+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: nunito;
+    height: 100vh;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    background: #FFFF;
+}
+
+.topo img{
+    width: 15%;
+    margin: 1.5% 1.5%;
+}
+
+.perfil{
+    margin-right: 1.5%;
+}
+
+.iconePerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.svgPerfil img{
+    width: 25px;
+}
+
+.svgPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background: #F9E423;
+    border-radius: 100px;
+
+}
+
+.cores{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+}
+
+.retanguloMarrom{
+    background: #AA6F34;
+    width: 384px;
+    height: 5px;
+}
+.retanguloMarrom2{
+    background: #D2772E;
+    width: 384px;
+    height: 5px;
+}
+.retanguloLaranja{
+    background: #F48221;
+    width: 384px;
+    height: 5px;
+}
+.retanguloLaranja2{
+    background: #FAA61A;
+    width: 384px;
+    height: 5px;
+}
+.retanguloAmarelo{
+    background: #F9E423;
+    width: 384px;
+    height: 5px;
+}
+
+.menuLateral{
+    width: 17%;
+    height: 100vh;
+    background: #F9E423;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #AA6F34;
+    border-left: 6px solid #F9E423;
+    margin-top: 37%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    margin-top: 37%;
+    color: #FFFF;
+}
+
+.home img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.home img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.usuarios{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #AA6F34;
+    border-left: 6px solid #F9E423;
+}
+
+.usuarios img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.usuarios:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.usuarios img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.professores{
+    display: none;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #FFFF;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+}
+
+.professores span{
+    margin-left: 17%;
+}
+
+.alunos{
+    display: none;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #FFFF;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+}
+
+.alunos span{
+    margin-left: 17%;
+}
+
+
+
+.emocionometro{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #FFFF;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+}
+
+.emocionometro img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.setaUsers{
+    margin: 0px 10px 0px 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.meuPerfil{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #AA6F34;
+    position: absolute;
+    bottom: 100px;
+    border-left: 6px solid #F9E423;
+}
+
+.meuPerfil img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+
+.meuPerfil:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.meuPerfil img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+
+
+
+.sair{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #AA6F34;
+    position: absolute;
+    bottom: 40px;
+    border-left: 6px solid #F9E423;
+}
+
+.sair img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+
+.sair:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.sair img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.pageHome{
+    position: relative;
+    width: 100%;
+    height: 86%;
+    background: #eeedf2;
+    
+}
+
+.pageHome h2{
+    position: relative;
+    left: 20%;
+    top: 2%;
+}
+
+.topoHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15px;
+}
+
+.menuDias{
+    margin-right: 50px;
+}
+
+.menuDiasBorda{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 2px solid #BDBDBD;
+
+}
+
+.fundoGrafico{
+    width: 45%;
+    height: 75%;
+    background: #FFFF;
+    border-radius: 20px;
+    position: relative;
+    top: 5%;
+    left: 20%;
+    padding: 20px 10px 0px 20px;
+
+}
+
+.fundoGrafico img{
+    width: 95%;
+    margin-top: 10px;
+    
+}
+
+.fundoGrafico span{
+    font-size: 0.8em;
+}
+
+.grafico {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 73px;
+    position: absolute;
+    width: 55px;
+    
+    bottom: 50px;
+    left: 82px;
+}
+
+.registros{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 30%;
+    height: 79%;
+    
+}
+
+.contagem{
+    background: #FFFF;
+    width: 75%;
+    padding: 30px;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+.contagemGrafica{
+    display: flex;
+    flex-direction: column;
+    background: #FFFF;
+    width: 84%;
+    height: 500px;
+    padding: 10px;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contagemGrafica img{
+    position: absolute;
+    right: 25%;
+    width: 50%;
+
+}
+
+.contagemGrafica span{
+    margin-left: 20px;
+}
+
+.tiposEmocao{
+    display: flex;
+    /* align-items: center;
+    justify-content: flex-start; */
+    flex-wrap: wrap;
+    height: 50px;
+    font-size: 12px;
+    position: absolute;
+    gap: 150px;
+    row-gap: 0;
+    bottom: 20px;
+    line-height: 0.8em;
+    margin-left: 20px;
+}
+.tiposEmocao span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medo{
+    margin-left: -12px;
+}

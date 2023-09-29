@@ -99,9 +99,9 @@ body{
     align-items: center;
     width: 98%;
     height: 60px;
-    color: #AA6F34;
-    /* background: #FAA61A; */
-    border-left: 6px solid #F9E423;
+    color: #FFFF;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
 
     margin-top: 37%;
 }
@@ -195,13 +195,14 @@ a{
     width: 98%;
     height: 60px;
     color: #FFFF;
-    background: #F48221;
+    background: #FAA61A;
     border-left: 6px solid #F48221;
 }
 
 .professores span{
     margin-left: 17%;
 }
+
 .alunos{
     display: flex;
     align-items: center;
@@ -213,20 +214,6 @@ a{
 }
 
 .alunos span{
-    margin-left: 17%;
-}
-
-.alunos:hover{
-    display: flex;
-    align-items: center;
-    width: 98%;
-    height: 60px;
-    color: #FFFF;
-    background: #F48221;
-    border-left: 6px solid #F48221;
-}
-
-.alunos span:hover{
     margin-left: 17%;
 }
 
@@ -353,106 +340,12 @@ a{
     color: #212121;
 }
 
-.listaProfessores{
-    width: 82.5%;
-    height: 100%;
-    margin-left: 17%;
-    border-top: 1px solid transparent;
+
+.usuarios ul li{
+    display: none;
 }
 
-.topoLista{
-    display: flex;
-    flex-direction: row;
-    margin: 25px;
+.usuarios ul li:hover{
+    display: block;
 }
 
-.pesquisa{
-    margin-left: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.pesquisa input{
-    padding: 10px 5px 10px 5px;
-    border-radius: 12px;
-    border: 1.5px solid var(--cinzas-cinza-300, #E0E0E0);
-    background: var(--Branco, #FFF);
-    width: 250px;
-}
-
-.botaoPesquisa{
-    position: absolute;
-    border: none;
-    top: 90px;
-    left: 505px;
-    background: #FFFF;
-}
-
-.boxNovoUser{
-    margin-right: 50px;
-}
-
-.botaoNovoUser{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 5px 20px;
-    border-radius: 8px;
-    background: var(--sistema-sucesso, #00C247);
-    border: 2px solid #00C247;
-    color: #FFFF;
-}
-
-.botaoNovoUser:hover{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 5px 20px;
-    border-radius: 8px;
-    background: var(--sistema-sucesso, #00c24794);
-    border: 2px solid #00c247bc;
-    color: #ffffff;
-}
-
-.boxNovoUser:hover{
-    margin-right: 50px;
-}
-
-.tabela{
-    margin-left: 25px;
-    margin-top: 25px;
-
-}
-
-.tabela div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.tbody {
-    background: #FFF;
-    width: 95%;
-    border-radius: 10px;
-}
-
-.nome{
-    padding: 10px 250px 10px 10px;
-}
-
-.disciplina{
-    padding: 10px 300px 10px 10px;
-}
-
-.perfilTabela{
-    padding: 10px 200px 10px 10px;
-}
-
-.ativo{
-    padding: 10px 100px 10px 10px;
-}
-
-.acoes{
-    padding: 10px 50px 10px 10px;
-}

@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Poppins:wght@300;500;600;700&family=Wix+Madefor+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: nunito;
+    height: 100vh;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    background: #FFFF;
+}
+
+.topo img{
+    width: 15%;
+    margin: 1.5% 1.5%;
+}
+
+.perfil{
+    margin-right: 1.5%;
+}
+
+.iconePerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.svgPerfil img{
+    width: 25px;
+}
+
+.svgPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background: #F9E423;
+    border-radius: 100px;
+
+}
+
+.cores{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+}
+
+.retanguloMarrom{
+    background: #AA6F34;
+    width: 384px;
+    height: 5px;
+}
+.retanguloMarrom2{
+    background: #D2772E;
+    width: 384px;
+    height: 5px;
+}
+.retanguloLaranja{
+    background: #F48221;
+    width: 384px;
+    height: 5px;
+}
+.retanguloLaranja2{
+    background: #FAA61A;
+    width: 384px;
+    height: 5px;
+}
+.retanguloAmarelo{
+    background: #F9E423;
+    width: 384px;
+    height: 5px;
+}
+
+.menuLateral{
+    width: 17%;
+    height: 100vh;
+    background: #F9E423;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #FFFF;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+
+    margin-top: 37%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    margin-top: 37%;
+    color: #FFFF;
+}
+
+.home img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.home img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.usuarios{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: #AA6F34;
+    border-left: 6px solid #F9E423;
+}
+
+.usuarios img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.usuarios:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.usuarios img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.emocionometro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: #AA6F34;
+    border-left: 6px solid #F9E423;
+}
+
+.emocionometro img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.emocionometro:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.emocionometro img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.professores{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #FFFF;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+}
+
+.professores span{
+    margin-left: 17%;
+}
+
+.alunos{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #FFFF;
+    background: #F48221;
+    border-left: 6px solid #F48221;
+}
+
+.alunos span{
+    margin-left: 17%;
+}
+
+.setaUsers{
+    margin: 0px 10px 0px 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.meuPerfil{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #AA6F34;
+    position: absolute;
+    bottom: 100px;
+    border-left: 6px solid #F9E423;
+}
+
+.meuPerfil img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+
+.meuPerfil:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.meuPerfil img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.sair{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    color: #AA6F34;
+    position: absolute;
+    bottom: 40px;
+    border-left: 6px solid #F9E423;
+}
+
+.sair img{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+
+.sair:hover{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 60px;
+    background: #FAA61A;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
+}
+
+.sair img:hover{
+    margin: 0px 10px;
+    width: 25px;
+}
+
+.pageHome{
+    position: relative;
+    width: 100%;
+    height: 86%;
+    background: #eeedf2;
+    
+}
+
+.texto{
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 15%;
+    color: #757575;
+}
+
+.texto h2{
+    color: #AA6F34;
+}
+
+.faleConosco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 80px;
+    bottom: 50px;
+    gap: 20px;
+}
+
+.logoMsg{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #F9E423;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMsg img{
+    width: 40px;
+}
+
+.faleConosco span{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+    border-radius: 8px;
+    padding: 5px;
+    color: #212121;
+}
+
+.listaProfessores{
+    width: 82.5%;
+    height: 100%;
+    margin-left: 17%;
+    border-top: 1px solid transparent;
+}
+
+.topoLista{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.pesquisa{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pesquisa input{
+    padding: 10px 5px 10px 5px;
+    border-radius: 12px;
+    border: 1.5px solid var(--cinzas-cinza-300, #E0E0E0);
+    background: var(--Branco, #FFF);
+    width: 250px;
+}
+
+.botaoPesquisa{
+    position: absolute;
+    border: none;
+    top: 90px;
+    left: 505px;
+    background: #FFFF;
+}
+
+.boxNovoUser{
+    margin-right: 50px;
+}
+
+.botaoNovoUser{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background: var(--sistema-sucesso, #00C247);
+    border: 2px solid #00C247;
+    color: #FFFF;
+}
+
+.botaoNovoUser:hover{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background: var(--sistema-sucesso, #00c24794);
+    border: 2px solid #00c247bc;
+    color: #ffffff;
+}
+
+.boxNovoUser:hover{
+    margin-right: 50px;
+}
+
+.tabela{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.tabela div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tbody {
+    background: #FFF;
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nome{
+    padding: 10px 250px 10px 10px;
+}
+
+.disciplina{
+    padding: 10px 300px 10px 10px;
+}
+
+.perfilTabela{
+    padding: 10px 200px 10px 10px;
+}
+
+.ativo{
+    padding: 10px 100px 10px 10px;
+}
+
+.acoes{
+    padding: 10px 50px 10px 10px;
+}

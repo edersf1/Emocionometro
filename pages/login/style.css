@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Poppins:wght@300;500;600;700&family=Wix+Madefor+Display&display=swap');
 
 body{
     position: relative;
@@ -6,17 +6,21 @@ body{
     padding: 0;
     display: flex;
     flex-direction: row;
+    background: rgba(223, 223, 223, 0.751);
+    font-family: Nunito;
 }
 
 .coracao{
-    background: rgba(228, 229, 231, 0.4);
+    background: rgba(230, 230, 230, 0.4);
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .coracao img{
     width: 80%;
     height: 100%;
-    margin-left: 40px;
 }
 
 .login{
@@ -27,8 +31,10 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    flex-shrink: 0;
 
-    border-radius: 24px 0px 0px 24px;
     background: var(--Branco, #FFF);
     /* Sombra 1 */
     box-shadow: 0px 7px 30px 0px rgba(187, 192, 205, 0.40);
@@ -126,4 +132,6 @@ span{
     background: #FFF;
     padding: 0px 5px;
 }
+
+
 
