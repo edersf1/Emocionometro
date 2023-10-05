@@ -344,8 +344,3 @@ a{
 .usuarios ul li{
     display: none;
 }
-
-.usuarios ul li:hover{
-    display: block;
-}
-
