@@ -251,6 +251,7 @@ a{
 .meuPerfil{
     display: flex;
     align-items: center;
+    width: 97.5%;
     height: 60px;
     color: #AA6F34;
     position: absolute;
@@ -267,6 +268,7 @@ a{
 .meuPerfil:hover{
     display: flex;
     align-items: center;
+    width: 97.5%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -284,6 +286,7 @@ a{
 .sair{
     display: flex;
     align-items: center;
+    width: 97.5%;
     height: 60px;
     color: #AA6F34;
     position: absolute;
@@ -300,6 +303,7 @@ a{
 .sair:hover{
     display: flex;
     align-items: center;
+    width: 97.5%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
