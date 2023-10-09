@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Emocionómetro</title>
-    <link rel="shortcut icon" href="../../assets/images/BG.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/BG.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="./JS/entrar.js" defer></script>
 </head>
 
 <body>
     <div class="coracao">
-        <img src="../../assets/images/BG.svg" alt="">
+        <img src="./assets/images/BG.svg" alt="">
     </div>
     <div class="login" id="login">
-        <img src="../../assets/images/Frame 8804.png" alt="Imagem">
+        <img src="./assets/images/Frame 8804.png" alt="Imagem">
         <h1>Faça seu login</h1>
         <form class="formulario" id="formulario">
             <div class="email">
@@ -24,7 +25,7 @@
             <div class="senha">
                 <label for="senha"><span>Senha</span></label>
             </div>
-            <input type="password" id="senha" placeholder="Digite sua senha" c>
+            <input type="password" id="senha" placeholder="Digite sua senha" >
             
             
             <div class="checkbox">
@@ -34,7 +35,7 @@
                 <a href="./pages/login/recuperar/index.html">Esqueceu a senha?</a>
             </div>
 
-            <button class="entrar" id="entrar" type="button">Entrar</button>
+            <button class="entrar" id="entrar" type="button" onclick="botaoEntrar()">Entrar</button>
             
             <div class="linhaN">
                 <div class="linha"></div>

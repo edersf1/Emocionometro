@@ -7,6 +7,7 @@
     <title>Home | Emocionómetro</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../assets/images/BG.svg" type="image/x-icon">
+    <script src="../../../JS/aluno.js" defer></script>
 </head>
 
 <body>
@@ -96,26 +97,18 @@
                     </button>
                 </div>
                 <div class="boxNovoUser">
-                    <button class="botaoNovoUser" id="novoAluno"><img src="../../../assets/images/Plus 24px.svg"
+                    <button class="botaoNovoUser" id="novoAluno" onclick="novoUsuario()"><img src="../../../assets/images/Plus 24px.svg"
                             alt="">Novo usuário</button>
                 </div>
             </div>
 
             <div class="tabela" id="tabela">
                 <div class="thead">
-                    <span class="nome">Nome</span>
-                    <span class="disciplina">Disciplina</span>
-                    <span class="perfilTabela">Perfil</span>
-                    <span class="ativo">Ativo</span>
-                    <span class="acoes">Ações</span>
-                </div>
-
-                <div class="tbody" id="tbody">
-                    <span class="nome">Nome</span>
-                    <span class="disciplina">Disciplina</span>
-                    <span class="perfilTabela">Perfil</span>
-                    <span class="ativo">on/off</span> <!--  fazer botao de on/off -->
-                    <span class="acoes">Ações</span> <!-- fazer botões de editar e excluir -->
+                    <span class="nomeThead">Nome</span>
+                    <span class="disciplinaThead">Disciplina</span>
+                    <span class="perfilTabelaThead">Perfil</span>
+                    <span class="ativoThead">Ativo</span>
+                    <span class="acoesThead">Ações</span>
                 </div>
         
             </div>

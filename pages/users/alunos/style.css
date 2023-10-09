@@ -401,31 +401,62 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 10px;
+
 }
 
 .tbody {
     background: #FFF;
     width: 95%;
     border-radius: 10px;
-    margin-bottom: 10px;
 }
 
-.nome{
-    padding: 10px 250px 10px 10px;
+.nomeTbody{
+    width: 20%;
+    margin: 10px;
 }
 
-.disciplina{
-    padding: 10px 300px 10px 10px;
+.disciplinaTbody{
+    width: 30%;
+    margin: 10px;
 }
 
-.perfilTabela{
-    padding: 10px 200px 10px 10px;
+.perfilTabelaTbody{
+    width: 20%;
+    margin: 10px;
 }
 
-.ativo{
-    padding: 10px 100px 10px 10px;
+.ativoTbody{
+    margin: 10px;
+    width: 15%;
 }
 
-.acoes{
-    padding: 10px 50px 10px 10px;
+.acoesTbody{
+    width: 20%;
+    margin: 10px;
+}
+
+.nomeThead{
+    width: 16.5%;
+    margin: 10px;
+}
+
+.disciplinaThead{
+    width: 25%;
+    margin: 10px;
+}
+
+.perfilTabelaThead{
+    width: 16.5%;
+    margin: 10px;
+}
+
+.ativoThead{
+    margin: 10px;
+    width: 12.3%;
+}
+
+.acoesThead{
+    width: 20%;
+    margin: 10px;
 }

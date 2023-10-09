@@ -11,5 +11,14 @@
         "disciplina": "Programação",
         "perfil": "Professor",
         "id": 2
-      }]
+      }],
+
+      "aluno": [
+        {
+            "nome": "Eder",
+            "disciplina": "Matemática",
+            "perfil": "Professor",
+            "id": 1
+        }
+      ]
 }
