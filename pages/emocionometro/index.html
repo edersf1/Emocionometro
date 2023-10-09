@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Emocionómetro</title>
-<<<<<<< HEAD
-    <script src="../../JS/usuario.js"></script>
-=======
->>>>>>> 87f8e56a32bac6e6993c428d22aff1162ed4158d
+    <script src="../../JS/usuario.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../assets/images/BG.svg" type="image/x-icon">
 </head>
@@ -42,40 +39,34 @@
             </div>
         </a>
 
-<<<<<<< HEAD
-        <div class="usuarios" id="usuarios" onclick="mostrarMenu()">
-            <img src="../../assets/images/addUserMarrom.svg" alt="">
-            <span>Usuários</span>
-            <div class="setaUsers">
-                <img src="../../assets/images/setaUsersMarrom.svg" alt="">
-            </div>
-        </div>
-
-        <a href="../../pages/users/professor/index.html">
-            <div class="professores">
-                <span>Professores</span>
-            </div>
-        </a>
-
-        <a href="../../pages/users/alunos/index.html">
-            <div class="alunos">
-                <span>Alunos</span>
-            </div>
-        </a>
-
-=======
-        <a href="../../pages/users/usuarios/index.html">
-            <div class="usuarios">
-                <img src="../../assets/images/addUserMarrom.svg" alt="">
-                <span>Usuários</span>
-                <div class="setaUsers">
-                    <img src="../../assets/images/setaUsersMarrom.svg" alt="">
+        <ul class="usuarios" id="usuarios" onclick="mostrarMenu()">
+            <li>
+                <div class="menuUser" id="menuUser">
+                    <img src="../../assets/images/addUserMarrom.svg" alt="">
+                    <span id="span">Usuários</span>
+                    <img  src="../../assets/images/setaUsersMarrom.svg" alt="Seta" id="setaUsers">
                 </div>
-            </div>
-        </a>
->>>>>>> 87f8e56a32bac6e6993c428d22aff1162ed4158d
+
+                <ul id="subMenu">
+                    <li>
+                        <a href="../../pages/users/professor/index.html">
+                            <div class="professores">
+                                <span>Professores</span>
+                            </div>
+                        </a>
+
+                        <a href="../../pages/users/alunos/index.html">
+                            <div class="alunos">
+                                <span>Alunos</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
         <a href="../../pages/emocionometro/index.html">
-            <div class="emocionometro">
+            <div class="emocionometro" id="teste">
                 <img src="../../assets/images/emocionometroMarrom.svg" alt="">
                 <span>Emocionómetro</span>
 
@@ -108,18 +99,7 @@
         </div>
         <div class="fundoGrafico">
             <span><strong>Gráfico de emoções</strong></span>
-<<<<<<< HEAD
             <img src="../../assets/images/Group 8782.svg" alt="grafico">
-=======
-            <img src="../../assets/images/Chart.svg" alt="grafico">
-            <div class="grafico">
-                <img src="../../assets/images/Rectangle 4170.svg" alt="">
-                <img src="../../assets/images/Rectangle 4171.svg" alt="">
-                <img src="../../assets/images/Rectangle 4172.svg" alt="">
-                <img src="../../assets/images/Rectangle 4173.svg" alt="">
-                <img src="../../assets/images/Rectangle 4174.svg" alt="">
-            </div>
->>>>>>> 87f8e56a32bac6e6993c428d22aff1162ed4158d
         </div>
         <div class="registros">
             <div class="contagem">
@@ -128,11 +108,7 @@
             </div>
             <div class="contagemGrafica">
                 <span>Percentual</span>
-<<<<<<< HEAD
                 <img src="../../assets/images/Group 8783.svg" alt="">
-=======
-                <img src="../../assets/images/Group 8774.svg" alt="">
->>>>>>> 87f8e56a32bac6e6993c428d22aff1162ed4158d
                 <div class="tiposEmocao">
                     <div class="raiva">
                         <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"

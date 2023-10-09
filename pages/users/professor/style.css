@@ -97,7 +97,6 @@ body{
 .home{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #AA6F34;
     /* background: #FAA61A; */
@@ -113,7 +112,6 @@ a{
 .home:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -134,10 +132,11 @@ a{
 .usuarios{
     display: flex;
     align-items: center;
-    width: 100%;
     height: 60px;
     color: #AA6F34;
-    border-left: 6px solid #F9E423;
+    background: #f483217b;
+    border-left: 6px solid #F48221;
+    color: #FFFF;
 }
 
 .usuarios img{
@@ -148,7 +147,6 @@ a{
 .usuarios:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -163,7 +161,6 @@ a{
 .emocionometro{
     display: flex;
     align-items: center;
-    width: 100%;
     height: 60px;
     color: #AA6F34;
     border-left: 6px solid #F9E423;
@@ -177,7 +174,6 @@ a{
 .emocionometro:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -192,7 +188,6 @@ a{
 .professores{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #FFFF;
     background: #F48221;
@@ -205,7 +200,6 @@ a{
 .alunos{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #FFFF;
     background: #FAA61A;
@@ -213,20 +207,6 @@ a{
 }
 
 .alunos span{
-    margin-left: 17%;
-}
-
-.alunos:hover{
-    display: flex;
-    align-items: center;
-    width: 98%;
-    height: 60px;
-    color: #FFFF;
-    background: #F48221;
-    border-left: 6px solid #F48221;
-}
-
-.alunos span:hover{
     margin-left: 17%;
 }
 
@@ -240,11 +220,9 @@ a{
 .meuPerfil{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #AA6F34;
-    position: absolute;
-    bottom: 100px;
+    margin-top: 150px;
     border-left: 6px solid #F9E423;
 }
 
@@ -257,7 +235,6 @@ a{
 .meuPerfil:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -272,11 +249,8 @@ a{
 .sair{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #AA6F34;
-    position: absolute;
-    bottom: 40px;
     border-left: 6px solid #F9E423;
 }
 
@@ -289,7 +263,6 @@ a{
 .sair:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -422,13 +395,15 @@ a{
 .tabela{
     margin-left: 25px;
     margin-top: 25px;
-
+    
 }
 
 .tabela div{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 10px;
+
 }
 
 .tbody {
@@ -437,22 +412,52 @@ a{
     border-radius: 10px;
 }
 
-.nome{
-    padding: 10px 250px 10px 10px;
+.nomeTbody{
+    width: 20%;
+    margin: 10px;
 }
 
-.disciplina{
-    padding: 10px 300px 10px 10px;
+.disciplinaTbody{
+    width: 30%;
+    margin: 10px;
 }
 
-.perfilTabela{
-    padding: 10px 200px 10px 10px;
+.perfilTabelaTbody{
+    width: 20%;
+    margin: 10px;
 }
 
-.ativo{
-    padding: 10px 100px 10px 10px;
+.ativoTbody{
+    margin: 10px;
+    width: 15%;
 }
 
-.acoes{
-    padding: 10px 50px 10px 10px;
+.acoesTbody{
+    width: 20%;
+    margin: 10px;
+}
+
+.nomeThead{
+    width: 16.5%;
+    margin: 10px;
+}
+
+.disciplinaThead{
+    width: 25%;
+    margin: 10px;
+}
+
+.perfilTabelaThead{
+    width: 16.5%;
+    margin: 10px;
+}
+
+.ativoThead{
+    margin: 10px;
+    width: 12.3%;
+}
+
+.acoesThead{
+    width: 20%;
+    margin: 10px;
 }

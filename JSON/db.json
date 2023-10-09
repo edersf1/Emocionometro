@@ -1,0 +1,15 @@
+{
+    "professor": [
+      {
+        "nome": "Eder Santos",
+        "disciplina": "Matemática",
+        "perfil": "Professor",
+        "id": 1
+      },
+      {
+        "nome": "Arthur Astar",
+        "disciplina": "Programação",
+        "perfil": "Professor",
+        "id": 2
+      }]
+}

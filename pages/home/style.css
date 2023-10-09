@@ -97,7 +97,6 @@ body{
 .home{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #FFFF;
     background: #FAA61A;
@@ -113,7 +112,6 @@ a{
 .home:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -131,28 +129,26 @@ a{
     width: 25px;
 }
 
-.usuarios{
+.menuUser{
     display: flex;
     align-items: center;
-    width: 100%;
     height: 60px;
+    border-left: 6px solid transparent;
     color: #AA6F34;
-    border-left: 6px solid #F9E423;
+}
+
+.menuUser:hover{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: #FAA61A;
+    color: #FFFF;
+
 }
 
 .usuarios img{
-    margin: 0px 10px;
     width: 25px;
-}
-
-.usuarios:hover{
-    display: flex;
-    align-items: center;
-    width: 98%;
-    height: 60px;
-    background: #FAA61A;
-    border-left: 6px solid #F48221;
-    color: #FFFF;
+    margin: 0px 10px;
 }
 
 .usuarios img:hover{
@@ -163,7 +159,6 @@ a{
 .emocionometro{
     display: flex;
     align-items: center;
-    width: 100%;
     height: 60px;
     color: #AA6F34;
     border-left: 6px solid #F9E423;
@@ -177,7 +172,6 @@ a{
 .emocionometro:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -192,29 +186,41 @@ a{
 .professores{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #FFFF;
-    background: #FAA61A;
-    border-left: 6px solid #F48221;
+    background: #faa81a7b;
 }
 
 .professores span{
     margin-left: 17%;
 }
 
-.alunos{
+.professores:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #FFFF;
     background: #FAA61A;
-    border-left: 6px solid #F48221;
+}
+
+.alunos{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    color: #FFFF;
+    background: #faa81a7b;
 }
 
 .alunos span{
     margin-left: 17%;
+}
+
+.alunos:hover{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    color: #FFFF;
+    background: #FAA61A;
 }
 
 .setaUsers{
@@ -227,7 +233,6 @@ a{
 .meuPerfil{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #AA6F34;
     position: absolute;
@@ -244,7 +249,6 @@ a{
 .meuPerfil:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -259,7 +263,6 @@ a{
 .sair{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     color: #AA6F34;
     position: absolute;
@@ -276,7 +279,6 @@ a{
 .sair:hover{
     display: flex;
     align-items: center;
-    width: 98%;
     height: 60px;
     background: #FAA61A;
     border-left: 6px solid #F48221;
@@ -341,6 +343,18 @@ a{
 }
 
 
-.usuarios ul li{
+#subMenu{
     display: none;
 }
+
+.usuarios{
+    border-left: 6px solid transparent;
+}
+
+.usuarios:hover{
+    background: #faa81a7b;
+    color: #FFFF;
+    border-left: 6px solid #F48221;
+}
+
+
