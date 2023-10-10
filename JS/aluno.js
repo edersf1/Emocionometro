@@ -24,5 +24,5 @@ const getAlunos = async () => {
 getAlunos()
 
 const novoUsuario = () => {
-    window.location = "../../../pages/novoUsuario/index.html"
+    window.location = "../../../pages/novoUsuario/aluno/index.html"
 }
