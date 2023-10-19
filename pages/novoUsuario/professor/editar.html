@@ -7,7 +7,8 @@
     <title>Novo Usuário | Emocionómetro</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../../assets/images/BG.svg" type="image/x-icon">
-    <script src="../../../JS/aluno.js" defer></script>
+    
+    <script src="../../../JS/editarProfessor.js" defer></script>
 </head>
 
 <body>
@@ -82,44 +83,46 @@
         </a>
     </div>
     <div class="pageHome">
-        
-            <div class="cadastro">
-                <div class="topoLista">
-                    <a href="../../../pages/users/alunos/index.html"><img src="../../../assets/images/setaVoltar.svg" alt=""></a>
-                    <h2>
-                        Novo Usuário
-                        <img src="../../../assets/images/setaUsersPreta.svg" alt="">
-                        Aluno
-                    </h2>
-                </div>
-                <div class="cadastrar">
-                    <span>Dados do usuário</span>
-                    <form class="inputs" id="formulario">
-                        <div class="nome">
-                            <label for="nome">Nome</label>
-                            <input type="text" id="nome" placeholder="Digite o nome">
-                        </div>
-                        <div class="turma">
-                            <label for="nome">Turma</label>
-                            <input type="text" id="turma" placeholder="Digite a turma">
-                        </div>
-                        <div class="toggle">
-                            <label for="ativo">Ativo</label>
-                            <label class="toggle-switch">
-                                <input type="checkbox" id="ativo">
-                                <div class="toggle-switch-background">
-                                  <div class="toggle-switch-handle"></div>
-                                </div>
-                              </label>
-                        </div>
-                        <div class="salvar" id="salvar">
-                            <button type="submit" id="salvar">Salvar</button>
-                        </div>
-                    </form>
-            
-                </div>
+        <div class="cadastro">
+            <div class="topoLista">
+                <a href="../../../pages/users/professor/index.html"><img src="../../../assets/images/setaVoltar.svg" alt=""></a>
+                <h2>
+                    Novo Usuário
+                    <img src="../../../assets/images/setaUsersPreta.svg" alt="">
+                    Professor
+                </h2>
             </div>
-        
+            <div class="cadastrar">
+                <span>Dados do usuário</span>
+                <form class="inputs" id="formulario">
+                    <div class="nome">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" placeholder="Digite o nome:">
+                    </div>
+                    <div class="disciplina">
+                        <label for="disciplina">Disciplina</label>
+                        <input type="text" id="disciplina" placeholder="Disciplina">
+                    </div>
+                    <div class="perfil">
+                        <label for="perfil">Perfil</label>
+                        <input type="text" id="perfil" placeholder="Perfil">
+                    </div>
+                    <div class="toggle">
+                        <label for="ativo">Ativo</label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="ativo">
+                            <div class="toggle-switch-background">
+                              <div class="toggle-switch-handle"></div>
+                            </div>
+                          </label>
+                    </div>
+                    <div class="salvar">
+                        <button type="submit" id="salvar">Atualizar</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
     </div>
 </body>
 

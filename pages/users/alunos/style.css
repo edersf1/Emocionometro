@@ -431,30 +431,48 @@ a{
     width: 15%;
 }
 
+.ativoTbody button{
+    width: 40px;
+    height: 20px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.ativoTbody img{
+    width: 40px;
+}
+
 .acoesTbody{
     width: 20%;
     margin: 10px;
 }
+.acoesTbody button{
+    border-radius: 100%;
+    height: 25px;
+    border: none;
+    background: none;
+}
+
+.acoesTbody img{
+    width: 25px;
+}
 
 .nomeThead{
-    width: 16.5%;
+    width: 19%;
     margin: 10px;
 }
 
 .disciplinaThead{
-    width: 25%;
+    width: 28.5%;
     margin: 10px;
 }
-
-.perfilTabelaThead{
-    width: 16.5%;
-    margin: 10px;
-}
-
 .ativoThead{
     margin: 10px;
-    width: 12.3%;
+    width: 14%;
 }
+
+
 
 .acoesThead{
     width: 20%;

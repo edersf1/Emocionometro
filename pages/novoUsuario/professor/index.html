@@ -88,12 +88,12 @@
                 <h2>
                     Novo Usuário
                     <img src="../../../assets/images/setaUsersPreta.svg" alt="">
-                    Aluno
+                    Professor
                 </h2>
             </div>
             <div class="cadastrar">
                 <span>Dados do usuário</span>
-                <div class="inputs">
+                <form class="inputs" id="formulario">
                     <div class="nome">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" placeholder="Digite o nome:">
@@ -106,14 +106,20 @@
                         <label for="perfil">Perfil</label>
                         <input type="text" id="perfil" placeholder="Perfil">
                     </div>
-                    <div >
+                    <div class="toggle">
                         <label for="ativo">Ativo</label>
-                        <button type="button" id="ativo">on/off</button>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="ativo">
+                            <div class="toggle-switch-background">
+                              <div class="toggle-switch-handle"></div>
+                            </div>
+                          </label>
                     </div>
-                </div>
-                <div class="salvar">
-                    <button type="submit" id="salvar">Salvar</button>
-                </div>
+                    <div class="salvar">
+                        <button type="submit" id="salvar">Salvar</button>
+                    </div>
+                </form>
+                
             </div>
         </div>
     </div>

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Emocionómetro</title>
+    <title>Aluno | Emocionómetro</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../../assets/images/BG.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../assets/images/BG.svg" type="image/x-icon">
     <script src="../../../JS/aluno.js" defer></script>
 </head>
 
@@ -89,10 +89,10 @@
                 <h2>Aluno</h2>
             </div>
 
-            <div class="pesquisa" id="pesquisa">
+            <div class="pesquisa">
                 <div>
-                    <input type="search" placeholder="Pesquise uma palavra-chave">
-                    <button type="submit" class="botaoPesquisa">
+                    <input type="search" placeholder="Pesquise uma palavra-chave" id="pesquisa">
+                    <button type="button" class="botaoPesquisa" onclick="pesquisar()">
                         <img src="../../../assets/images/search.svg" alt="">
                     </button>
                 </div>
@@ -105,12 +105,10 @@
             <div class="tabela" id="tabela">
                 <div class="thead">
                     <span class="nomeThead">Nome</span>
-                    <span class="disciplinaThead">Disciplina</span>
-                    <span class="perfilTabelaThead">Perfil</span>
+                    <span class="disciplinaThead">Turma</span>
                     <span class="ativoThead">Ativo</span>
                     <span class="acoesThead">Ações</span>
                 </div>
-        
             </div>
         </div>
     </div>

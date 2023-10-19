@@ -432,9 +432,31 @@ a{
     width: 15%;
 }
 
+.ativoTbody button{
+    width: 40px;
+    height: 20px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.ativoTbody img{
+    width: 40px;
+}
+
 .acoesTbody{
     width: 20%;
     margin: 10px;
+}
+.acoesTbody button{
+    border-radius: 100%;
+    height: 25px;
+    border: none;
+    background: none;
+}
+
+.acoesTbody img{
+    width: 25px;
 }
 
 .nomeThead{
