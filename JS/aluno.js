@@ -26,17 +26,16 @@ const mostrarAlunos = (alunos) => {
 
     // Função para exclusão de aluno da API
     const excluirAluno = async (id) => {
-        await fetch(`http://localhost:3000/aluno/${id}`, { method: 'DELETE' })
+        await fetch(`https://emocionometro-1.onrender.com/aluno/${id}`, { method: 'DELETE' })
         getAlunos()
         window.location = "../../../pages/users/alunos/index.html"
         }
 
 // puxar os alunos da API.
 const getAlunos = async () => {
-    const apiURL = await fetch('http://localhost:3000/aluno')
+    const apiURL = await fetch('https://emocionometro-1.onrender.com/aluno')
     const alunos = await apiURL.json()
     mostrarAlunos(alunos)
-    console.log(alunos)
 }
 
 getAlunos()
@@ -49,7 +48,7 @@ const novoUsuario = () => {
 const formulario = document.getElementById('formulario')
 
 const cadastrarAluno = async (aluno) => {
-    await fetch('http://localhost:3000/aluno', {
+    await fetch('https://emocionometro-1.onrender.com/aluno', {
         method: 'POST',
         headers: {
             'Accept': 'application/json, text/plain, */*',
@@ -64,10 +63,10 @@ const cadastrarAluno = async (aluno) => {
 
 const pesquisar = async () => {
     const pesquisa = document.getElementById('pesquisa').value
-    let resultados = await fetch(`http://localhost:3000/aluno?nome_like=${pesquisa}`)
+    let resultados = await fetch(`http://emocionometro-1.onrender.com/aluno?nome_like=${pesquisa}`)
     let resultadosFormatados = await resultados.json()
     mostrarResultado(resultadosFormatados)
-    // console.log("teste")
+   
 }
 
 const mostrarResultado = (alunos) => {

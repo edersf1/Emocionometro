@@ -11,7 +11,7 @@ const getIdUrl = () => {
 }
 
 const buscarAluno = async () => {
-    const response = await fetch(`http://localhost:3000/aluno/${alunoId}`)
+    const response = await fetch(`https://emocionometro-1.onrender.com/aluno/${alunoId}`)
     const aluno = await response.json()
     return aluno
 }
@@ -29,7 +29,7 @@ const carregarDados = async () => {
 }
 
 const editarAluno = async (aluno) => {
-    await fetch(`http://localhost:3000/aluno/${alunoId}`, {
+    await fetch(`https://emocionometro-1.onrender.com/aluno/${alunoId}`, {
         method: 'PUT',
         headers: {
             'Accept': 'application/json, text/plain, */*',

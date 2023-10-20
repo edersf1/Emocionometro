@@ -27,16 +27,15 @@ const editarProfessor = (id) => {
 // Função para exclusão de professor da API
 
 const excluirProfessor = async (id) => {
-    await fetch(`http://localhost:3000/professor/${id}`, { method: 'DELETE' })
+    await fetch(`https://emocionometro-1.onrender.com/professor/${id}`, { method: 'DELETE' })
     getProfessores()
     window.location = "../../../pages/users/professor/index.html"
 }
 
 const getProfessores = async () => {
-    const apiURL = await fetch('http:///localhost:3000/professor')
+    const apiURL = await fetch('https:///emocionometro-1.onrender.com/professor')
     const professores = await apiURL.json()
     mostrarProfessores(professores)
-    console.log(professores)
 }
 
 getProfessores()
@@ -50,7 +49,7 @@ const novoUsuario = () => {
 const formulario = document.getElementById('formulario')
 
 const cadastrarProfessor = async (professor) => {
-    await fetch('http://localhost:3000/professor', {
+    await fetch('https://emocionometro-1.onrender.com/professor', {
         method: 'POST',
         headers: {
             'Accept': 'application/json, text/plain, */*',
@@ -65,7 +64,7 @@ const cadastrarProfessor = async (professor) => {
 
 const pesquisar = async () => {
     const pesquisa = document.getElementById('pesquisa').value
-    let resultados = await fetch(`http://localhost:3000/professor?nome_like=${pesquisa}`)
+    let resultados = await fetch(`https://emocionometro-1.onrender.com/professor?nome_like=${pesquisa}`)
     let resultadosFormatados = await resultados.json()
     mostrarResultado(resultadosFormatados)
     // console.log("teste")
