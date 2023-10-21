@@ -63,7 +63,7 @@ const cadastrarAluno = async (aluno) => {
 
 const pesquisar = async () => {
     const pesquisa = document.getElementById('pesquisa').value
-    let resultados = await fetch(`http://emocionometro-1.onrender.com/aluno?nome_like=${pesquisa}`)
+    let resultados = await fetch(`https://emocionometro-1.onrender.com/aluno?nome_like=${pesquisa}`)
     let resultadosFormatados = await resultados.json()
     mostrarResultado(resultadosFormatados)
    
