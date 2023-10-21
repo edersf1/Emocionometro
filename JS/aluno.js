@@ -72,11 +72,18 @@ const pesquisar = async () => {
 const mostrarResultado = (alunos) => {
     const conteudo = document.getElementById('tabela')
     let corpo = `
+        <div class="thead">
+            <span class="nomeThead">Nome</span>
+            <span class="disciplinaThead">Turma</span>
+            <span class="ativoThead">Ativo</span>
+            <span class="acoesThead">Ações</span>
+        </div>
         ${alunos.map(aluno => `
             <div class="tbody" id="tbody">
                 <span class="nomeTbody">${aluno.nome}</span>
                 <span class="disciplinaTbody">${aluno.turma}</span>
                 <span class="ativoTbody" id="ativo">${aluno.ativo ? '<img src="../../../assets/images/Toggle.svg">' : '<img src="../../../assets/images/Toggle (1).svg">'}</span>
+                <span class="acoesTbody">
                     <button id="editar" onclick="editarAluno(${aluno.id})"><img src="../../../assets/images/Property 1=editar.svg"></img></button>
                     <button id="excluir" onclick="excluirAluno(${aluno.id})"><img src="../../../assets/images/Property 1=excluir.svg"></img></button>
                 </span> 

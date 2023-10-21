@@ -74,7 +74,15 @@ const pesquisar = async () => {
 const mostrarResultado = (professores) => {
     const conteudo = document.getElementById('tabela')
     let corpo = `
+            <div class="thead">
+                <span class="nomeThead">Nome</span>
+                <span class="disciplinaThead">Disciplina</span>
+                <span class="perfilTabelaThead">Perfil</span>
+                <span class="ativoThead">Ativo</span>
+                <span class="acoesThead">Ações</span>
+            </div>
         ${professores.map(professor => `
+
             <div class="tbody" id="tbody">
                 <span class="nomeTbody">${professor.nome}</span>
                 <span class="disciplinaTbody">${professor.disciplina}</span>
